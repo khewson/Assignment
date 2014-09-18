@@ -5,4 +5,4 @@
 
 temp_fahra=int(input("Enter the temperature in degrees Farhrenheit"))
 temp_cent=((temp_fahra-32)*(5/9))
-print(temp_cent)
+print("The temperature in degrees centigrade is {0} ".format(temp_cent))
